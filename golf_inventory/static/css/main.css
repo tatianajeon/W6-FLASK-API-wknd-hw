@@ -1,0 +1,272 @@
+body {
+    background-color: white; 
+    margin: 50px;
+}
+
+.ct-nav{
+    display:flex;
+    margin:20px;
+    justify-content: center;
+}
+
+/* Target Main Logo Image */
+#nav-img{
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration:none;
+    padding: 0.5vw;
+    color:yellowgreen;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid green;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+/* End of Nav Styles */
+
+
+/* header section */
+
+
+
+#header-text2 p{
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+#header-text h2{
+    margin: 0;
+    padding-top: 200px;
+    font-size: 100px;
+    color: rgba(225, 225, 225, 0.01);
+    background-image: url(../image/golfball.jpg);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+@keyframes animate {
+    0%,
+    100% {background-position: left top;}
+    25% {background-position: right bottom;}
+    50% {background-position: left bottom;}
+    75% {background-position: right top;}
+}
+
+/* end header section */
+
+/* start middle section */
+
+
+#middle-section{
+    padding-bottom: 100px;
+}
+
+#middle-title h1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    font-size: 100px;
+    color: rgba(225, 225, 225, 0.01);
+    background-image: url(../image/golfshot.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-clip: text;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.middle-text {
+    display: block;
+    padding-top: 10px;
+    background-image: url(../image/golfcourse.jpg);
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 75px;
+    text-emphasis-position: center;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-family: lobster;
+    clip-path: polygon(14% 0, 100% 0%, 86% 100%, 0% 100%);
+
+  }
+
+
+.middle-text li{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* end middle section */
+
+/* start features section */
+
+#golfing-man,#golfing-woman,#golfing-junior{
+    margin-bottom: 10vh;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.col-sm{
+    padding-top: 200px; 
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/* end features section */
+
+
+/* start community section */
+#community-section{
+    flex-direction: column;
+    margin: 50px;
+    padding-top: 100px;
+}
+
+#community-section h4{
+    height: 50vh;
+    align-items:center;
+    margin: 0;
+    font-size: 100px;
+    color: rgba(225, 225, 225, 0.01);
+    background-image: url(../image/putting.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-clip: text;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+/* end community section */
+
+/* start footer section */
+.footer{
+    margin-top: 20vh;
+    border-top: 3px black;
+    display: inline-block;
+    flex-direction: row;
+}
+
+#footer-horizontal-list{
+    min-width: 700px;
+    list-style: none;
+    padding-top: 20px; 
+}
+
+#footer-horizontal-list li{
+    text-decoration:none;
+    padding: 0.5vw;
+    color:yellowgreen;
+}
+/* end footer section */
+
+
+/* profile page */
+
+.header-text{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    font-size: 100px;
+    color: rgba(225, 225, 225, 0.01);
+    background-image: url(../image/golfcourse.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-clip: text;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.content-title h3{
+    text-align: center
+}
+
+.content-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+/* sign in page */
+.login h1{
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    font-size: 100px;
+    color: rgba(225, 225, 225, 0.01);
+    background-image: url(../image/golfcourse.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-clip: text;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.signin-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signin-box h2{
+    text-align: center; 
+}

@@ -1,0 +1,1 @@
+web: gunicorn golf_inventory:app --preload
